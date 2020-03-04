@@ -55,3 +55,21 @@ if (type === 'r') {
 
 window.document.write('Customer type: ', type, '<br>');
 window.document.write('Discount applied:', discount, '<br>');
+
+let gradeS = window.prompt ("Enter the student\'s grade");
+switch (gradeS) {
+    case 'A': 
+        window.document.write("You got an A <br>");
+        break;
+    case 'B':
+        window.document.write("You got a B <br>");
+        break;
+    case 'C':
+        window.document.write("You got an C <br>");
+        break;
+    case 'D':
+        window.document.write("You got a D <br>");
+        break;
+    case 'F':
+        window.document.write("Your credits won\'t articulate! <br>");
+}
